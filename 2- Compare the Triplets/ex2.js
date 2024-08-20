@@ -8,7 +8,7 @@
  *  2. INTEGER_ARRAY b
  */
 
-function compareTriplets(a, b) { //REVER NO HACKERRANK
+function compareTriplets(a, b) {
     let result = [0,0];    
 
     for (let i = 0; i < 3; i++){
