@@ -9,16 +9,17 @@
  */
 
 function compareTriplets(a, b) {
-    let result = [0,0];    
+    let alice = 0;
+    let bob = 0;    
 
     for (let i = 0; i < 3; i++){
         if (a [i] > b[i]){
-            result[0] += 1;
+            alice += 1;
             
         } else if (a[i] < b[i]) {
-            result[1] += 1;            
+            bob += 1;            
         }  
                        
     }   
-    return result; 
+    return [alice, bob]; 
 }  
