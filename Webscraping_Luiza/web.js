@@ -1,4 +1,4 @@
-        /* Webscraping - site - https://www.farmrio.com.br/novidades */
+        /* Web Scraping - site - https://www.farmrio.com.br/novidades */
 
 // 1
     function listarPreco() {
